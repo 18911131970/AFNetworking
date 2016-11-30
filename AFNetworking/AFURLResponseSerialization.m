@@ -377,7 +377,7 @@ static id AFJSONObjectByRemovingKeysWithNullValues(id JSONObject, NSJSONReadingO
         return nil;
     }
 
-    self.acceptableContentTypes = [[NSSet alloc] initWithObjects:@"application/xml", @"text/xml", nil];
+    self.acceptableContentTypes = [[NSSet alloc] initWithObjects:@"text/html", @"text/plain",@"application/xml", @"text/xml", nil];
 
     return self;
 }
